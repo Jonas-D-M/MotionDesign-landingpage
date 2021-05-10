@@ -40,11 +40,11 @@ $color: (
 $font__family: (
 	base: '"Lato", sans-serif',
 	// font-family(base)
-	heading: '"PT Serif", serif',
+	heading: '"Lato", serif',
 	// font-family(heading)
 	code: 'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
 	// font-family(code)
-	pre: '"Courier 10 Pitch", Courier, monospace' // font-family(pre),,,,,,
+	pre: '"Courier 10 Pitch", Courier, monospace' // font-family(pre),,,,,,,
 );
 
 $font__sizes: (
@@ -111,7 +111,7 @@ $font__scale: (
 		// Text smaller (e.g. pricing table's lists)
 		8: map-get($font__sizes, eta),
 		// Footer area
-		9: map-get($font__sizes, theta) // Header links, buttons,,,,,,
+		9: map-get($font__sizes, theta) // Header links, buttons,,,,,,,
 	),
 	mobile: (
 		// i.e. $breakpoint__xs + $breakpoint__s (up to 600)
@@ -131,7 +131,7 @@ $font__scale: (
 		// Text smaller (e.g. pricing table's lists)
 		8: map-get($font__sizes, eta),
 		// Footer area
-		9: map-get($font__sizes, theta) // Header links, buttons,,,,,,
+		9: map-get($font__sizes, theta) // Header links, buttons,,,,,,,
 	),
 );
 
@@ -142,7 +142,7 @@ $font__weight: (
 	// font__weight(medium)
 	semibold: 600,
 	// font__weight(semi-bold)
-	bold: 700 // font__weight(bold),,,,,,
+	bold: 700 // font__weight(bold),,,,,,,
 );
 
 // --------------------------------------------
